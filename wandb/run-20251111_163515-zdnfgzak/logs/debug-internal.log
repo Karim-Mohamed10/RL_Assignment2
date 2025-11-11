@@ -1,0 +1,12 @@
+{"time":"2025-11-11T16:35:18.2679927+02:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-11T16:35:18.9068999+02:00","level":"INFO","msg":"stream: created new stream","id":"zdnfgzak"}
+{"time":"2025-11-11T16:35:18.9074063+02:00","level":"INFO","msg":"handler: started","stream_id":"zdnfgzak"}
+{"time":"2025-11-11T16:35:18.9096163+02:00","level":"INFO","msg":"stream: started","id":"zdnfgzak"}
+{"time":"2025-11-11T16:35:18.9096163+02:00","level":"INFO","msg":"writer: started","stream_id":"zdnfgzak"}
+{"time":"2025-11-11T16:35:18.9096163+02:00","level":"INFO","msg":"sender: started","stream_id":"zdnfgzak"}
+{"time":"2025-11-11T16:42:06.6645187+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-11T16:42:07.2047533+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-11T16:42:07.2257609+02:00","level":"INFO","msg":"stream: closing","id":"zdnfgzak"}
+{"time":"2025-11-11T16:42:07.2257609+02:00","level":"INFO","msg":"handler: closed","stream_id":"zdnfgzak"}
+{"time":"2025-11-11T16:42:07.2277487+02:00","level":"INFO","msg":"sender: closed","stream_id":"zdnfgzak"}
+{"time":"2025-11-11T16:42:07.2287572+02:00","level":"INFO","msg":"stream: closed","id":"zdnfgzak"}

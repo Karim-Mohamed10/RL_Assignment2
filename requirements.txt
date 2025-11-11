@@ -1,0 +1,6 @@
+gymnasium[classic_control]
+torch
+numpy
+wandb
+moviepy
+imageio

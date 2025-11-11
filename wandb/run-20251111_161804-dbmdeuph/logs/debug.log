@@ -1,0 +1,15 @@
+2025-11-11 16:18:04,860 INFO    MainThread:300 [wandb_setup.py:_flush():81] Current SDK version is 0.22.3
+2025-11-11 16:18:04,860 INFO    MainThread:300 [wandb_setup.py:_flush():81] Configure stats pid to 300
+2025-11-11 16:18:04,860 INFO    MainThread:300 [wandb_setup.py:_flush():81] Loading settings from C:\Users\karee\.config\wandb\settings
+2025-11-11 16:18:04,860 INFO    MainThread:300 [wandb_setup.py:_flush():81] Loading settings from C:\Users\karee\Desktop\RL_Assignment2\wandb\settings
+2025-11-11 16:18:04,860 INFO    MainThread:300 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-11-11 16:18:04,861 INFO    MainThread:300 [wandb_init.py:setup_run_log_directory():706] Logging user logs to C:\Users\karee\Desktop\RL_Assignment2\wandb\run-20251111_161804-dbmdeuph\logs\debug.log
+2025-11-11 16:18:04,861 INFO    MainThread:300 [wandb_init.py:setup_run_log_directory():707] Logging internal logs to C:\Users\karee\Desktop\RL_Assignment2\wandb\run-20251111_161804-dbmdeuph\logs\debug-internal.log
+2025-11-11 16:18:04,861 INFO    MainThread:300 [wandb_init.py:init():833] calling init triggers
+2025-11-11 16:18:04,861 INFO    MainThread:300 [wandb_init.py:init():838] wandb.init called with sweep_config: {}
+config: {'env': 'CartPole-v1', 'algo': 'DQN', 'episodes': 600, 'batch_size': 128, 'gamma': 0.99, 'learning_rate': 0.0001, 'memory_size': 10000, 'epsilon_start': 0.9, 'epsilon_end': 0.05, 'epsilon_decay': 1000, 'tau': 0.005, '_wandb': {}}
+2025-11-11 16:18:04,861 INFO    MainThread:300 [wandb_init.py:init():881] starting backend
+2025-11-11 16:18:07,109 INFO    MainThread:300 [wandb_init.py:init():884] sending inform_init request
+2025-11-11 16:18:07,145 INFO    MainThread:300 [wandb_init.py:init():892] backend started and connected
+2025-11-11 16:18:07,145 INFO    MainThread:300 [wandb_init.py:init():962] updated telemetry
+2025-11-11 16:18:07,148 INFO    MainThread:300 [wandb_init.py:init():986] communicating run to backend with 90.0 second timeout

@@ -1,0 +1,26 @@
+2025-11-11 17:10:01,663 INFO    MainThread:21772 [wandb_setup.py:_flush():81] Current SDK version is 0.22.3
+2025-11-11 17:10:01,665 INFO    MainThread:21772 [wandb_setup.py:_flush():81] Configure stats pid to 21772
+2025-11-11 17:10:01,667 INFO    MainThread:21772 [wandb_setup.py:_flush():81] Loading settings from C:\Users\karee\.config\wandb\settings
+2025-11-11 17:10:01,668 INFO    MainThread:21772 [wandb_setup.py:_flush():81] Loading settings from C:\Users\karee\Desktop\RL_Assignment2\wandb\settings
+2025-11-11 17:10:01,669 INFO    MainThread:21772 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-11-11 17:10:01,670 INFO    MainThread:21772 [wandb_init.py:setup_run_log_directory():706] Logging user logs to C:\Users\karee\Desktop\RL_Assignment2\wandb\run-20251111_171001-jjlqse99\logs\debug.log
+2025-11-11 17:10:01,672 INFO    MainThread:21772 [wandb_init.py:setup_run_log_directory():707] Logging internal logs to C:\Users\karee\Desktop\RL_Assignment2\wandb\run-20251111_171001-jjlqse99\logs\debug-internal.log
+2025-11-11 17:10:01,673 INFO    MainThread:21772 [wandb_init.py:init():833] calling init triggers
+2025-11-11 17:10:01,673 INFO    MainThread:21772 [wandb_init.py:init():838] wandb.init called with sweep_config: {}
+config: {'env': 'Pendulum-v1', 'algo': 'DDQN', 'episodes': 600, 'batch_size': 128, 'gamma': 0.99, 'learning_rate': 0.0001, 'memory_size': 10000, 'epsilon_start': 0.9, 'epsilon_end': 0.05, 'epsilon_decay': 1000, 'tau': 0.005, '_wandb': {}}
+2025-11-11 17:10:01,673 INFO    MainThread:21772 [wandb_init.py:init():881] starting backend
+2025-11-11 17:10:03,958 INFO    MainThread:21772 [wandb_init.py:init():884] sending inform_init request
+2025-11-11 17:10:04,020 INFO    MainThread:21772 [wandb_init.py:init():892] backend started and connected
+2025-11-11 17:10:04,021 INFO    MainThread:21772 [wandb_init.py:init():962] updated telemetry
+2025-11-11 17:10:04,024 INFO    MainThread:21772 [wandb_init.py:init():986] communicating run to backend with 90.0 second timeout
+2025-11-11 17:10:05,125 INFO    MainThread:21772 [wandb_init.py:init():1033] starting run threads in backend
+2025-11-11 17:10:05,528 INFO    MainThread:21772 [wandb_run.py:_console_start():2506] atexit reg
+2025-11-11 17:10:05,528 INFO    MainThread:21772 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-11-11 17:10:05,528 INFO    MainThread:21772 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-11-11 17:10:05,528 INFO    MainThread:21772 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-11-11 17:10:05,535 INFO    MainThread:21772 [wandb_init.py:init():1073] run started, returning control to user process
+2025-11-11 17:16:00,485 INFO    MainThread:21772 [wandb_run.py:_finish():2272] finishing run kareemmohamed1920-honey/RL_Assignment_2/jjlqse99
+2025-11-11 17:16:00,486 INFO    MainThread:21772 [wandb_run.py:_atexit_cleanup():2471] got exitcode: 0
+2025-11-11 17:16:00,487 INFO    MainThread:21772 [wandb_run.py:_restore():2453] restore
+2025-11-11 17:16:00,487 INFO    MainThread:21772 [wandb_run.py:_restore():2459] restore done
+2025-11-11 17:16:02,443 INFO    MainThread:21772 [wandb_run.py:_footer_sync_info():3835] logging synced files

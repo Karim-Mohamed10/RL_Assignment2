@@ -1,0 +1,17 @@
+Using device: cpu
+Starting training on CartPole-v1 with DQN...
+Episode 50/600 | Reward: 13.00 | Duration: 13
+Episode 100/600 | Reward: 108.00 | Duration: 108
+Episode 150/600 | Reward: 178.00 | Duration: 178
+Episode 200/600 | Reward: 141.00 | Duration: 141
+Episode 250/600 | Reward: 117.00 | Duration: 117
+Episode 300/600 | Reward: 86.00 | Duration: 86
+Episode 350/600 | Reward: 115.00 | Duration: 115
+Episode 400/600 | Reward: 118.00 | Duration: 118
+Episode 450/600 | Reward: 122.00 | Duration: 122
+Episode 500/600 | Reward: 147.00 | Duration: 147
+Episode 550/600 | Reward: 50.00 | Duration: 50
+Episode 600/600 | Reward: 20.00 | Duration: 20
+Training Complete.
+Starting Evaluation (100 Episodes)...
+Evaluation Results - Avg Duration: 44.53, Avg Reward: 44.53

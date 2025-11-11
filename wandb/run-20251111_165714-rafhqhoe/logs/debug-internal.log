@@ -1,0 +1,14 @@
+{"time":"2025-11-11T16:57:16.5267236+02:00","level":"INFO","msg":"stream: starting","core version":"0.22.3"}
+{"time":"2025-11-11T16:57:17.0045644+02:00","level":"INFO","msg":"stream: created new stream","id":"rafhqhoe"}
+{"time":"2025-11-11T16:57:17.0045644+02:00","level":"INFO","msg":"handler: started","stream_id":"rafhqhoe"}
+{"time":"2025-11-11T16:57:17.0068617+02:00","level":"INFO","msg":"stream: started","id":"rafhqhoe"}
+{"time":"2025-11-11T16:57:17.0068617+02:00","level":"INFO","msg":"writer: started","stream_id":"rafhqhoe"}
+{"time":"2025-11-11T16:57:17.0068617+02:00","level":"INFO","msg":"sender: started","stream_id":"rafhqhoe"}
+{"time":"2025-11-11T17:00:19.5881154+02:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":2369}
+{"time":"2025-11-11T17:00:19.672634+02:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":6}
+{"time":"2025-11-11T17:01:46.0292658+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-11T17:01:46.6304381+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-11-11T17:01:46.6368353+02:00","level":"INFO","msg":"stream: closing","id":"rafhqhoe"}
+{"time":"2025-11-11T17:01:46.6368353+02:00","level":"INFO","msg":"handler: closed","stream_id":"rafhqhoe"}
+{"time":"2025-11-11T17:01:46.6368353+02:00","level":"INFO","msg":"sender: closed","stream_id":"rafhqhoe"}
+{"time":"2025-11-11T17:01:46.6368353+02:00","level":"INFO","msg":"stream: closed","id":"rafhqhoe"}

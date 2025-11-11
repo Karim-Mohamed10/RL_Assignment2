@@ -1,0 +1,18 @@
+Using device: cpu
+Wrapped Pendulum-v1 for discrete actions.
+Starting training on Pendulum-v1 with DDQN...
+Episode 50/600 | Reward: -744.39 | Duration: 200
+Episode 100/600 | Reward: -130.10 | Duration: 200
+Episode 150/600 | Reward: -381.55 | Duration: 200
+Episode 200/600 | Reward: -10.42 | Duration: 200
+Episode 250/600 | Reward: -4.04 | Duration: 200
+Episode 300/600 | Reward: -0.58 | Duration: 200
+Episode 350/600 | Reward: -123.95 | Duration: 200
+Episode 400/600 | Reward: -120.15 | Duration: 200
+Episode 450/600 | Reward: -232.27 | Duration: 200
+Episode 500/600 | Reward: -120.54 | Duration: 200
+Episode 550/600 | Reward: -224.14 | Duration: 200
+Episode 600/600 | Reward: -256.05 | Duration: 200
+Training Complete.
+Starting Evaluation (100 Episodes)...
+Evaluation Results - Avg Duration: 200.0, Avg Reward: -218.2444918723616

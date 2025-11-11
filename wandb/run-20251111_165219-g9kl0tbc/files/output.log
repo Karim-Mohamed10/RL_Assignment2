@@ -1,0 +1,20 @@
+Using device: cpu
+Traceback (most recent call last):
+  File "C:\Users\karee\Desktop\RL_Assignment2\main.py", line 339, in <module>
+    run_training(args)
+    ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\karee\Desktop\RL_Assignment2\main.py", line 186, in run_training
+    env = gym.make(config.env, render_mode="rgb_array")
+  File "C:\Users\karee\AppData\Roaming\Python\Python313\site-packages\gymnasium\envs\registration.py", line 681, in make
+    env_spec = _find_spec(id)
+  File "C:\Users\karee\AppData\Roaming\Python\Python313\site-packages\gymnasium\envs\registration.py", line 526, in _find_spec
+    _check_version_exists(ns, name, version)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\karee\AppData\Roaming\Python\Python313\site-packages\gymnasium\envs\registration.py", line 392, in _check_version_exists
+    _check_name_exists(ns, name)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\karee\AppData\Roaming\Python\Python313\site-packages\gymnasium\envs\registration.py", line 369, in _check_name_exists
+    raise error.NameNotFound(
+        f"Environment `{name}` doesn't exist{namespace_msg}.{suggestion_msg}"
+    )
+gymnasium.error.NameNotFound: Environment `MountainCarAcrobot` doesn't exist. Did you mean: `MountainCar`?

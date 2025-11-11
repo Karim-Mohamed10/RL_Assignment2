@@ -1,0 +1,59 @@
+_wandb:
+    value:
+        cli_version: 0.22.3
+        e:
+            rxqsmub1akg49yjwjfvlnybu58xpl3zh:
+                args:
+                    - --env
+                    - MountainCarAcrobot-v1
+                    - --algo
+                    - DQN
+                codePath: main.py
+                codePathLocal: main.py
+                email: kareemmohamed1920@gmail.com
+                executable: C:\Python313\python.exe
+                host: Karim
+                os: Windows-11-10.0.22631-SP0
+                program: C:\Users\karee\Desktop\RL_Assignment2\main.py
+                python: CPython 3.13.1
+                root: C:\Users\karee\Desktop\RL_Assignment2
+                startedAt: "2025-11-11T14:52:19.701117Z"
+                writerId: rxqsmub1akg49yjwjfvlnybu58xpl3zh
+        m: []
+        python_version: 3.13.1
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 13
+                - 16
+            "4": 3.13.1
+            "5": 0.22.3
+            "8":
+                - 3
+            "12": 0.22.3
+            "13": windows-amd64
+algo:
+    value: DQN
+batch_size:
+    value: 128
+env:
+    value: MountainCarAcrobot-v1
+episodes:
+    value: 600
+epsilon_decay:
+    value: 1000
+epsilon_end:
+    value: 0.05
+epsilon_start:
+    value: 0.9
+gamma:
+    value: 0.99
+learning_rate:
+    value: 0.0001
+memory_size:
+    value: 10000
+tau:
+    value: 0.005

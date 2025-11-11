@@ -1,0 +1,1 @@
+{"_step":1799,"_wandb":{"runtime":405},"_timestamp":1.7628721255683823e+09,"epsilon":0.05,"episode_duration":200,"loss":0.026190458810524432,"test_avg_reward":-200,"episode_reward":-200,"test_avg_duration":200,"_runtime":405,"episode":599}

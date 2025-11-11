@@ -1,0 +1,19 @@
+{
+  "os": "Windows-11-10.0.22631-SP0",
+  "python": "CPython 3.13.1",
+  "startedAt": "2025-11-11T14:52:19.701117Z",
+  "args": [
+    "--env",
+    "MountainCarAcrobot-v1",
+    "--algo",
+    "DQN"
+  ],
+  "program": "C:\\Users\\karee\\Desktop\\RL_Assignment2\\main.py",
+  "codePath": "main.py",
+  "codePathLocal": "main.py",
+  "email": "kareemmohamed1920@gmail.com",
+  "root": "C:\\Users\\karee\\Desktop\\RL_Assignment2",
+  "host": "Karim",
+  "executable": "C:\\Python313\\python.exe",
+  "writerId": "rxqsmub1akg49yjwjfvlnybu58xpl3zh"
+}

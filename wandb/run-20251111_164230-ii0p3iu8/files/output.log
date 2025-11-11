@@ -1,0 +1,17 @@
+Using device: cpu
+Starting training on MountainCar-v0 with DDQN...
+Episode 50/600 | Reward: -200.00 | Duration: 200
+Episode 100/600 | Reward: -200.00 | Duration: 200
+Episode 150/600 | Reward: -200.00 | Duration: 200
+Episode 200/600 | Reward: -200.00 | Duration: 200
+Episode 250/600 | Reward: -184.00 | Duration: 184
+Episode 300/600 | Reward: -200.00 | Duration: 200
+Episode 350/600 | Reward: -200.00 | Duration: 200
+Episode 400/600 | Reward: -200.00 | Duration: 200
+Episode 450/600 | Reward: -200.00 | Duration: 200
+Episode 500/600 | Reward: -161.00 | Duration: 161
+Episode 550/600 | Reward: -169.00 | Duration: 169
+Episode 600/600 | Reward: -150.00 | Duration: 150
+Training Complete.
+Starting Evaluation (100 Episodes)...
+Evaluation Results - Avg Duration: 158.42, Avg Reward: -158.42

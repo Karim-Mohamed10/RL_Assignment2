@@ -1,0 +1,17 @@
+Using device: cpu
+Starting training on Acrobot-v1 with DDQN...
+Episode 50/600 | Reward: -186.00 | Duration: 187
+Episode 100/600 | Reward: -103.00 | Duration: 104
+Episode 150/600 | Reward: -99.00 | Duration: 100
+Episode 200/600 | Reward: -83.00 | Duration: 84
+Episode 250/600 | Reward: -83.00 | Duration: 84
+Episode 300/600 | Reward: -98.00 | Duration: 99
+Episode 350/600 | Reward: -100.00 | Duration: 101
+Episode 400/600 | Reward: -137.00 | Duration: 138
+Episode 450/600 | Reward: -104.00 | Duration: 105
+Episode 500/600 | Reward: -83.00 | Duration: 84
+Episode 550/600 | Reward: -105.00 | Duration: 106
+Episode 600/600 | Reward: -74.00 | Duration: 75
+Training Complete.
+Starting Evaluation (100 Episodes)...
+Evaluation Results - Avg Duration: 82.52, Avg Reward: -81.52

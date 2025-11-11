@@ -1,0 +1,42 @@
+{
+  "os": "Windows-11-10.0.22631-SP0",
+  "python": "CPython 3.13.1",
+  "startedAt": "2025-11-11T14:27:46.563521Z",
+  "args": [
+    "--env",
+    "CartPole-v1",
+    "--algo",
+    "DDQN"
+  ],
+  "program": "C:\\Users\\karee\\Desktop\\RL_Assignment2\\main.py",
+  "codePath": "main.py",
+  "codePathLocal": "main.py",
+  "email": "kareemmohamed1920@gmail.com",
+  "root": "C:\\Users\\karee\\Desktop\\RL_Assignment2",
+  "host": "Karim",
+  "executable": "C:\\Python313\\python.exe",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "125900419072",
+      "used": "123239727104"
+    }
+  },
+  "memory": {
+    "total": "16913522688"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "memoryTotal": "4294967296",
+      "cudaCores": 2048,
+      "architecture": "Ampere",
+      "uuid": "GPU-01dcbbd3-510e-6c05-8320-53c05c9581ae"
+    }
+  ],
+  "cudaVersion": "12.9",
+  "writerId": "3ol05t9tew3msfl6rdhyp3busqd70pta"
+}
