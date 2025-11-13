@@ -1,0 +1,42 @@
+Using device: cpu
+Starting training on Pendulum-v1 with DQN...
+Episode 50/600 | Reward: -383.52 | Duration: 200
+Traceback (most recent call last):
+  File "C:\Users\karee\Desktop\RL_Assignment2\main.py", line 295, in <module>
+    run_training(args)
+    ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\karee\Desktop\RL_Assignment2\main.py", line 195, in run_training
+    loss = agent.optimize_model()
+  File "C:\Users\karee\Desktop\RL_Assignment2\main.py", line 138, in optimize_model
+    self.optimizer.step()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\karee\AppData\Roaming\Python\Python313\site-packages\torch\optim\optimizer.py", line 517, in wrapper
+    out = func(*args, **kwargs)
+  File "C:\Users\karee\AppData\Roaming\Python\Python313\site-packages\torch\optim\optimizer.py", line 82, in _use_grad
+    ret = func(*args, **kwargs)
+  File "C:\Users\karee\AppData\Roaming\Python\Python313\site-packages\torch\optim\adam.py", line 247, in step
+    adam(
+    ~~~~^
+        params_with_grad,
+        ^^^^^^^^^^^^^^^^^
+    ...<19 lines>...
+        decoupled_weight_decay=group["decoupled_weight_decay"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\karee\AppData\Roaming\Python\Python313\site-packages\torch\optim\optimizer.py", line 150, in maybe_fallback
+    return func(*args, **kwargs)
+  File "C:\Users\karee\AppData\Roaming\Python\Python313\site-packages\torch\optim\adam.py", line 953, in adam
+    func(
+    ~~~~^
+        params,
+        ^^^^^^^
+    ...<17 lines>...
+        decoupled_weight_decay=decoupled_weight_decay,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\karee\AppData\Roaming\Python\Python313\site-packages\torch\optim\adam.py", line 530, in _single_tensor_adam
+    torch.maximum(max_exp_avg_sqs[i], exp_avg_sq, out=max_exp_avg_sqs[i])
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

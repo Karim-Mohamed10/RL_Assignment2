@@ -1,0 +1,46 @@
+{
+  "os": "Windows-11-10.0.22631-SP0",
+  "python": "CPython 3.13.1",
+  "startedAt": "2025-11-13T10:02:56.317718Z",
+  "args": [
+    "--env",
+    "Pendulum-v1",
+    "--algo",
+    "DQN"
+  ],
+  "program": "C:\\Users\\karee\\Desktop\\RL_Assignment2\\main.py",
+  "codePath": "main.py",
+  "codePathLocal": "main.py",
+  "git": {
+    "remote": "https://github.com/Karim-Mohamed10/RL_Assignment2.git",
+    "commit": "673c615e18bc57d44d6f50419340356cb75cbf67"
+  },
+  "email": "kareemmohamed1920@gmail.com",
+  "root": "C:\\Users\\karee\\Desktop\\RL_Assignment2",
+  "host": "Karim",
+  "executable": "C:\\Python313\\python.exe",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "125900419072",
+      "used": "124155142144"
+    }
+  },
+  "memory": {
+    "total": "16913522688"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "memoryTotal": "4294967296",
+      "cudaCores": 2048,
+      "architecture": "Ampere",
+      "uuid": "GPU-01dcbbd3-510e-6c05-8320-53c05c9581ae"
+    }
+  ],
+  "cudaVersion": "12.9",
+  "writerId": "kwctdwsmonepajvg9kmmq6gjsz71i3q1"
+}

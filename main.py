@@ -162,7 +162,7 @@ def run_training(args):
     agent = Agent(env, config, device)
 
 
-    print(f"Starting training on {config.env} with {config.algo}...")
+    print(f"Starting training on {config.env} with {config.algo}")
     
     for i_episode in range(config.episodes):
         state, info = env.reset()
@@ -219,7 +219,7 @@ def run_training(args):
     print("Training Complete.")
     
 
-    print("Starting Evaluation (100 Episodes)...")
+    print("Starting Evaluation (100 Episodes)")
     
 
     env.close()
@@ -276,25 +276,19 @@ def run_training(args):
 
 
 if __name__ == "__main__":
-    # Argument Parser for Hyperparameters and Config
-    parser = argparse.ArgumentParser(description='DQN/DDQN Assignment')
+    parser = argparse.ArgumentParser(description='DQN/DDQN')
+    parser.add_argument('--env', type=str, default='CartPole-v1' )
+    parser.add_argument('--algo', type=str, default='DQN', choices=['DQN', 'DDQN'])
     
-    # Environment & Algo
-    parser.add_argument('--env', type=str, default='CartPole-v1', 
-                        help='Gym environment name (CartPole-v1, Acrobot-v1, MountainCar-v0, Pendulum-v1)')
-    parser.add_argument('--algo', type=str, default='DQN', choices=['DQN', 'DDQN'],
-                        help='Algorithm to use: DQN or DDQN')
-    
-    # Hyperparameters (These are defaults, change them to "find best setup")
-    parser.add_argument('--episodes', type=int, default=600, help='Number of training episodes')
-    parser.add_argument('--batch_size', type=int, default=128, help='Batch size')
-    parser.add_argument('--gamma', type=float, default=0.99, help='Discount factor')
-    parser.add_argument('--learning_rate', type=float, default=1e-4, help='Learning rate')
-    parser.add_argument('--memory_size', type=int, default=10000, help='Replay memory size')
-    parser.add_argument('--epsilon_start', type=float, default=0.9, help='Starting epsilon')
-    parser.add_argument('--epsilon_end', type=float, default=0.05, help='Final epsilon')
-    parser.add_argument('--epsilon_decay', type=int, default=1000, help='Epsilon decay rate')
-    parser.add_argument('--tau', type=float, default=0.005, help='Target network soft update rate')
+    parser.add_argument('--episodes', type=int, default=600)
+    parser.add_argument('--batch_size', type=int, default=128)
+    parser.add_argument('--gamma', type=float, default=0.99)
+    parser.add_argument('--learning_rate', type=float, default=1e-4)
+    parser.add_argument('--memory_size', type=int, default=10000)
+    parser.add_argument('--epsilon_start', type=float, default=0.9)
+    parser.add_argument('--epsilon_end', type=float, default=0.05)
+    parser.add_argument('--epsilon_decay', type=int, default=1000)
+    parser.add_argument('--tau', type=float, default=0.005)
 
     args = parser.parse_args()
     
